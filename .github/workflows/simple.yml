@@ -47,3 +47,4 @@ jobs:
           key: ${{ secrets.PRIVATE_KEY }}
           source: "build/*"
           target: "/home/ubuntu/frontend"
+          strip_components: 1
