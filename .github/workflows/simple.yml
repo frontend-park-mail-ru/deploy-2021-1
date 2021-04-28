@@ -45,5 +45,5 @@ jobs:
           host: 146.185.211.81
           username: ubuntu
           key: ${{ secrets.PRIVATE_KEY }}
-          source: "build"
+          source: "build/*"
           target: "/home/ubuntu/frontend"
