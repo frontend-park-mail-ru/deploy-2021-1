@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        Deploy CI
+        Deploy S3
       </header>
     </div>
   );
