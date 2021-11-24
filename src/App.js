@@ -4,7 +4,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        Deploy S3
+        Deploy simple way
+        I was deployed via Github Actions
       </header>
     </div>
   );
