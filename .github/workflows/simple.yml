@@ -2,8 +2,6 @@ name: Simple Build
 
 on:
   push:
-    branches: []
-  pull_request:
     branches: [master]
 
 jobs:
@@ -12,7 +10,7 @@ jobs:
 
     steps:
       - name: Install Node
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v3
         with:
           node-version: 16
 

@@ -6,7 +6,7 @@ function App() {
       <header className="App-header">
         <h1>Deployed</h1>
         <p>
-          I was deployed via Github Actions
+          I'm deployed
         </p>
       </header>
     </div>
